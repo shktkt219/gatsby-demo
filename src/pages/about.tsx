@@ -1,9 +1,10 @@
 import * as React from 'react';
 import type { HeadFC, PageProps } from 'gatsby';
+import Layout from "../components/Layout";
 
 const Aboout: React.FC<PageProps> = () => {
   return (
-    <main>
+    <Layout>
       <div>
         <h1>About Page</h1>
         <p>
@@ -25,7 +26,7 @@ const Aboout: React.FC<PageProps> = () => {
           rerum dolorem sequi!
         </p>
       </div>
-    </main>
+    </Layout>
   );
 };
 
